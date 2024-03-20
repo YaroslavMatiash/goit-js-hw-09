@@ -5,3 +5,150 @@
   |============================
 */
 @import url('./reset.css');
+
+/* Gallery */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  max-width: 1440px;
+
+  background: #fff;
+
+  display: flex;
+  gap: 32px 16px;
+  flex-wrap: wrap;
+}
+
+.gallery li img {
+  width: 360px;
+  height: 200px;
+}
+
+.sl-wrapper {
+  background-color: rgba(46, 47, 66, 0.8);
+}
+
+.sl-wrapper .sl-close {
+  color: #fff !important;
+}
+
+.sl-wrapper .sl-counter {
+  color: #fff !important;
+}
+
+.sl-wrapper .sl-navigation button.sl-next {
+  color: #fff !important;
+}
+
+.sl-wrapper .sl-navigation button.sl-prev {
+  color: #fff !important;
+}
+
+/* Form */
+
+.form-wrapper {
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 256px;
+
+  background: #fff;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+  width: 360px;
+  height: 40px;
+  margin-bottom: 42px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.feedback-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.feedback-input:focus,
+.feedback-input:hover {
+  border-color: #007bff;
+  outline: none;
+}
+
+.textarea-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+  width: 360px;
+  height: 100px;
+  margin-bottom: 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.feedback-textarea {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  resize: none;
+}
+
+.feedback-textarea:focus,
+.feedback-textarea:hover {
+  border-color: #007bff;
+  outline: none;
+}
+
+.feedback-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+
+  background: #4e75ff;
+  border: none;
+}
+
+.feedback-btn:hover,
+.feedback-btn:focus {
+  background: #6c8cff;
+}

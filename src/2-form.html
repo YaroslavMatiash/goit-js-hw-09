@@ -12,6 +12,23 @@
       <a href="./index.html">Go to home</a>
       <h1>Welcome to Form</h1>
     </section>
+    <div class="form-wrapper">
+      <form class="feedback-form" autocomplete="off">
+        <label class="feedback-label">
+          Email
+          <input class="feedback-input" type="email" name="email" autofocus />
+        </label>
+        <label class="textarea-label">
+          Message
+          <textarea
+            class="feedback-textarea"
+            name="message"
+            rows="8"
+          ></textarea>
+        </label>
+        <button class="feedback-btn" type="submit">Submit</button>
+      </form>
+    </div>
 
     <script type="module" src="./js/2-form.js"></script>
   </body>
